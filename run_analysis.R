@@ -64,5 +64,5 @@ names(Sensor_Data_Mean_Std) <- gsub('^f',"FrequencyDomain.",names(Sensor_Data_Me
 
 sensor_avg = ddply(Sensor_Data_Mean_Std, c("Subject","Activity"), numcolwise(mean))
 
-write.table(sensor_avg, file = "sensor_avg.txt")
+write.table(sensor_avg, file = "Tidy.txt")
 
