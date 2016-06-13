@@ -1,0 +1,9 @@
+The downloaded raw data sets was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
+The files was process via program run_analysis.R script,  used to tidy the set.  The test and training sets was merged into one single 
+file/data set. Variable labels was renamed appropriately.  Each name is broken down into a time domain and a frequency domain -- 
+81 variables in total.
+Activities are broken into : walking, walking_upstairs, walking_downstairs, sitting, standing, laying
+
+ 
+
